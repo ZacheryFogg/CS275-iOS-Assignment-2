@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7tN-Yx-STi">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Convert-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ConversionViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Convert" image="ConvertIcon" id="V5c-cT-J2n"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133" y="114"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="dV1-Ve-kig">
+            <objects>
+                <viewController id="Hk1-d4-xfH" customClass="MapViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <mapView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="1MX-U7-G8X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </mapView>
+                    <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="mfQ-WH-8dQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xkr-dR-4Ky" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1686.9565217391305" y="113.83928571428571"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ELF-H2-yzD">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="7tN-Yx-STi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Thx-BK-Z9s">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Hk1-d4-xfH" kind="relationship" relationship="viewControllers" id="FBT-eg-O1L"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="q6x-iM-PJw"/>
+                        <segue destination="TqH-4i-ddE" kind="relationship" relationship="viewControllers" id="t1T-oz-cZg"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SMU-yM-rj1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="784" y="114"/>
+        </scene>
+        <!--PlusMinus-->
+        <scene sceneID="UIM-hv-Jqt">
+            <objects>
+                <viewController id="TqH-4i-ddE" customClass="ViewController" customModule="WorldTrotter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CYl-hb-apA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="zero" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23T-OO-Pgz">
+                                <rect key="frame" x="174.5" y="306" width="65.5" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="80" translatesAutoresizingMaskIntoConstraints="NO" id="f8o-2h-ycR">
+                                <rect key="frame" x="133.5" y="406" width="147" height="84"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w2b-df-cvc">
+                                        <rect key="frame" x="0.0" y="0.0" width="37" height="84"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                        <state key="normal" title="+"/>
+                                        <connections>
+                                            <action selector="increment:" destination="TqH-4i-ddE" eventType="touchUpInside" id="jWt-mg-7pA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYI-P3-uCB">
+                                        <rect key="frame" x="117" y="0.0" width="30" height="84"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                        <state key="normal" title="-"/>
+                                        <connections>
+                                            <action selector="decrement:" destination="TqH-4i-ddE" eventType="touchUpInside" id="DN9-BA-0a2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="w2b-df-cvc" firstAttribute="centerY" secondItem="f8o-2h-ycR" secondAttribute="centerY" id="PNh-gZ-6kc"/>
+                                    <constraint firstItem="oYI-P3-uCB" firstAttribute="centerY" secondItem="f8o-2h-ycR" secondAttribute="centerY" id="wyS-gm-DlH"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CZV-AM-rrr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="f8o-2h-ycR" firstAttribute="top" secondItem="23T-OO-Pgz" secondAttribute="bottom" constant="57" id="2vc-F9-L9v"/>
+                            <constraint firstItem="f8o-2h-ycR" firstAttribute="centerX" secondItem="CYl-hb-apA" secondAttribute="centerX" id="Q89-Hz-TdR"/>
+                            <constraint firstItem="f8o-2h-ycR" firstAttribute="centerY" secondItem="CYl-hb-apA" secondAttribute="centerY" id="UBm-de-Df4"/>
+                            <constraint firstItem="23T-OO-Pgz" firstAttribute="centerX" secondItem="CYl-hb-apA" secondAttribute="centerX" id="dqF-hx-kIQ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="PlusMinus" id="yyC-la-88E"/>
+                    <connections>
+                        <outlet property="valueLabel" destination="23T-OO-Pgz" id="r2q-WY-ioX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uII-lN-riY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-520" y="114"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ConvertIcon" width="48.5" height="32.5"/>
+        <image name="MapIcon" width="48.5" height="32.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
