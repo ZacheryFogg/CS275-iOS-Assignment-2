@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		6F286F7627165B950052B9D2 /* PlusMinusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusMinusViewController.swift; sourceTree = "<group>"; };
-		6FF5D63B27162DCD00703D0D /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF5D63B27162DCD00703D0D /* iOS_Assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF5D63E27162DCD00703D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FF5D64027162DCD00703D0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6FF5D64227162DCD00703D0D /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
@@ -47,9 +47,9 @@
 		6FF5D64727162DCD00703D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FF5D64A27162DCD00703D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FF5D64C27162DCD00703D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FF5D65127162DCD00703D0D /* WorldTrotterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF5D65127162DCD00703D0D /* iOS_Assignment2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Assignment2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF5D65527162DCD00703D0D /* WorldTrotterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterTests.swift; sourceTree = "<group>"; };
-		6FF5D65B27162DCD00703D0D /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF5D65B27162DCD00703D0D /* iOS_Assignment2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Assignment2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FF5D65F27162DCD00703D0D /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		6FF5D66127162DCD00703D0D /* WorldTrotterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6FF5D66E2716541A00703D0D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -93,9 +93,9 @@
 		6FF5D63C27162DCD00703D0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6FF5D63B27162DCD00703D0D /* WorldTrotter.app */,
-				6FF5D65127162DCD00703D0D /* WorldTrotterTests.xctest */,
-				6FF5D65B27162DCD00703D0D /* WorldTrotterUITests.xctest */,
+				6FF5D63B27162DCD00703D0D /* iOS_Assignment2.app */,
+				6FF5D65127162DCD00703D0D /* iOS_Assignment2Tests.xctest */,
+				6FF5D65B27162DCD00703D0D /* iOS_Assignment2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6FF5D63A27162DCD00703D0D /* WorldTrotter */ = {
+		6FF5D63A27162DCD00703D0D /* iOS_Assignment2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FF5D66527162DCD00703D0D /* Build configuration list for PBXNativeTarget "WorldTrotter" */;
+			buildConfigurationList = 6FF5D66527162DCD00703D0D /* Build configuration list for PBXNativeTarget "iOS_Assignment2" */;
 			buildPhases = (
 				6FF5D63727162DCD00703D0D /* Sources */,
 				6FF5D63827162DCD00703D0D /* Frameworks */,
@@ -148,14 +148,14 @@
 			);
 			dependencies = (
 			);
-			name = WorldTrotter;
+			name = iOS_Assignment2;
 			productName = WorldTrotter;
-			productReference = 6FF5D63B27162DCD00703D0D /* WorldTrotter.app */;
+			productReference = 6FF5D63B27162DCD00703D0D /* iOS_Assignment2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6FF5D65027162DCD00703D0D /* WorldTrotterTests */ = {
+		6FF5D65027162DCD00703D0D /* iOS_Assignment2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FF5D66827162DCD00703D0D /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */;
+			buildConfigurationList = 6FF5D66827162DCD00703D0D /* Build configuration list for PBXNativeTarget "iOS_Assignment2Tests" */;
 			buildPhases = (
 				6FF5D64D27162DCD00703D0D /* Sources */,
 				6FF5D64E27162DCD00703D0D /* Frameworks */,
@@ -166,14 +166,14 @@
 			dependencies = (
 				6FF5D65327162DCD00703D0D /* PBXTargetDependency */,
 			);
-			name = WorldTrotterTests;
+			name = iOS_Assignment2Tests;
 			productName = WorldTrotterTests;
-			productReference = 6FF5D65127162DCD00703D0D /* WorldTrotterTests.xctest */;
+			productReference = 6FF5D65127162DCD00703D0D /* iOS_Assignment2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6FF5D65A27162DCD00703D0D /* WorldTrotterUITests */ = {
+		6FF5D65A27162DCD00703D0D /* iOS_Assignment2UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6FF5D66B27162DCD00703D0D /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */;
+			buildConfigurationList = 6FF5D66B27162DCD00703D0D /* Build configuration list for PBXNativeTarget "iOS_Assignment2UITests" */;
 			buildPhases = (
 				6FF5D65727162DCD00703D0D /* Sources */,
 				6FF5D65827162DCD00703D0D /* Frameworks */,
@@ -184,9 +184,9 @@
 			dependencies = (
 				6FF5D65D27162DCD00703D0D /* PBXTargetDependency */,
 			);
-			name = WorldTrotterUITests;
+			name = iOS_Assignment2UITests;
 			productName = WorldTrotterUITests;
-			productReference = 6FF5D65B27162DCD00703D0D /* WorldTrotterUITests.xctest */;
+			productReference = 6FF5D65B27162DCD00703D0D /* iOS_Assignment2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,8 +212,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 6FF5D63627162DCD00703D0D /* Build configuration list for PBXProject "WorldTrotter" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 6FF5D63627162DCD00703D0D /* Build configuration list for PBXProject "iOS_Assignment2" */;
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -225,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6FF5D63A27162DCD00703D0D /* WorldTrotter */,
-				6FF5D65027162DCD00703D0D /* WorldTrotterTests */,
-				6FF5D65A27162DCD00703D0D /* WorldTrotterUITests */,
+				6FF5D63A27162DCD00703D0D /* iOS_Assignment2 */,
+				6FF5D65027162DCD00703D0D /* iOS_Assignment2Tests */,
+				6FF5D65A27162DCD00703D0D /* iOS_Assignment2UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -294,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		6FF5D65327162DCD00703D0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6FF5D63A27162DCD00703D0D /* WorldTrotter */;
+			target = 6FF5D63A27162DCD00703D0D /* iOS_Assignment2 */;
 			targetProxy = 6FF5D65227162DCD00703D0D /* PBXContainerItemProxy */;
 		};
 		6FF5D65D27162DCD00703D0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6FF5D63A27162DCD00703D0D /* WorldTrotter */;
+			target = 6FF5D63A27162DCD00703D0D /* iOS_Assignment2 */;
 			targetProxy = 6FF5D65C27162DCD00703D0D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -519,7 +519,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldTrotter.app/WorldTrotter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_Assignment2.app/iOS_Assignment2";
 			};
 			name = Debug;
 		};
@@ -544,7 +544,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorldTrotter.app/WorldTrotter";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_Assignment2.app/iOS_Assignment2";
 			};
 			name = Release;
 		};
@@ -597,7 +597,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6FF5D63627162DCD00703D0D /* Build configuration list for PBXProject "WorldTrotter" */ = {
+		6FF5D63627162DCD00703D0D /* Build configuration list for PBXProject "iOS_Assignment2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FF5D66327162DCD00703D0D /* Debug */,
@@ -606,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FF5D66527162DCD00703D0D /* Build configuration list for PBXNativeTarget "WorldTrotter" */ = {
+		6FF5D66527162DCD00703D0D /* Build configuration list for PBXNativeTarget "iOS_Assignment2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FF5D66627162DCD00703D0D /* Debug */,
@@ -615,7 +615,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FF5D66827162DCD00703D0D /* Build configuration list for PBXNativeTarget "WorldTrotterTests" */ = {
+		6FF5D66827162DCD00703D0D /* Build configuration list for PBXNativeTarget "iOS_Assignment2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FF5D66927162DCD00703D0D /* Debug */,
@@ -624,7 +624,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6FF5D66B27162DCD00703D0D /* Build configuration list for PBXNativeTarget "WorldTrotterUITests" */ = {
+		6FF5D66B27162DCD00703D0D /* Build configuration list for PBXNativeTarget "iOS_Assignment2UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6FF5D66C27162DCD00703D0D /* Debug */,
